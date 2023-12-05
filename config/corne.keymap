@@ -227,13 +227,13 @@
         home-arrow {
             bindings = <&kp HOME>;
             key-positions = <27 37>;
-            layers = <1>;
+            layers = <1 2 3>;
         };
 
         end-arrow {
             bindings = <&kp END>;
             key-positions = <27 38>;
-            layers = <1>;
+            layers = <1 2 3>;
         };
     };
 
