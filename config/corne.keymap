@@ -411,37 +411,37 @@
 
         AOE_layer {
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp A  &none                        &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                        &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                        &none  &none  &none  &none
-                     &none  &none  &none    &none  &hold_tap_tog_kp 0 K_CANCEL  &none
+&none  &none  &none  &none  &none  &none    &kp A  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+                     &none  &none  &none    &none  &hold_tap_tog_kp 16 BACKSPACE  &none
             >;
         };
 
         SC2_layer {
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp S  &none                        &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                        &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                        &none  &none  &none  &none
-                     &none  &none  &none    &none  &hold_tap_tog_kp 0 K_CANCEL  &none
+&none  &none  &none  &none  &none  &none    &kp S  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+                     &none  &none  &none    &none  &hold_tap_tog_kp 17 BACKSPACE  &none
             >;
         };
 
         OSRS_layer {
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp O  &none                        &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                        &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                        &none  &none  &none  &none
-                     &none  &none  &none    &none  &hold_tap_tog_kp 0 K_CANCEL  &none
+&none  &none  &none  &none  &none  &none    &kp O  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+                     &none  &none  &none    &none  &hold_tap_tog_kp 18 BACKSPACE  &none
             >;
         };
 
         FPS_layer {
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp F  &none                        &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                        &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none                        &none  &none  &none  &none
-                     &none  &none  &none    &none  &hold_tap_tog_kp 0 K_CANCEL  &none
+&none  &none  &none  &none  &none  &none    &kp F  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+                     &none  &none  &none    &none  &hold_tap_tog_kp 19 BACKSPACE  &none
             >;
         };
     };
