@@ -438,10 +438,10 @@
 
         MOBA_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none    &kp M  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none                          &none  &none  &none  &none
+                     &none  &none  &none    &none  &hold_tap_tog_kp 20 BACKSPACE  &none
             >;
         };
     };
