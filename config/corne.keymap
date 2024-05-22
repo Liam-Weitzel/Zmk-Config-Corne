@@ -236,6 +236,60 @@
             flavor = "tap-preferred";
             quick-tap-ms = <200>;
         };
+
+        mod_morph_tab_1: mod_morph_tab_1 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_TAB_1";
+            bindings = <&kp TAB>, <&kp NUMBER_1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        mod_morph_q_2: mod_morph_q_2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_Q_2";
+            bindings = <&kp Q>, <&kp NUMBER_2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        mod_morph_e_3: mod_morph_e_3 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_E_3";
+            bindings = <&kp E>, <&kp NUMBER_3>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        mod_morph_r_4: mod_morph_r_4 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_R_4";
+            bindings = <&kp R>, <&kp NUMBER_4>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        mod_morph_d_5: mod_morph_d_5 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_D_5";
+            bindings = <&kp D>, <&kp N5>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        mod_morph_f_6: mod_morph_f_6 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_F_6";
+            bindings = <&kp F>, <&kp NUMBER_6>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
     };
 
     combos {
@@ -463,10 +517,10 @@
 
         test1 {
             bindings = <
-&none  &kp NUMBER_1  &kp Q   &kp W   &kp E      &kp R        &none  &none                          &none  &none  &none  &none
-&none  &kp LSHFT     &kp A   &kp S   &kp D      &kp G        &none  &none                          &none  &none  &none  &none
-&none  &kp NUMBER_4  &kp N5  &kp X   &kp H      &kp V        &none  &none                          &none  &none  &none  &none
-                             &kp N6  &kp SPACE  &kp LCTRL    &none  &hold_tap_tog_kp 16 BACKSPACE  &none
+&none  &mod_morph_tab_1  &mod_morph_q_2  &kp W         &mod_morph_e_3  &mod_morph_r_4    &none  &none                          &none  &none  &none  &none
+&none  &kp LSHFT         &kp A           &kp S         &mod_morph_d_5  &mod_morph_f_6    &none  &none                          &none  &none  &none  &none
+&none  &kp B             &kp G           &kp X         &kp H           &kp V             &none  &none                          &none  &none  &none  &none
+                                         &kp LEFT_ALT  &kp SPACE       &kp LCTRL         &none  &hold_tap_tog_kp 16 BACKSPACE  &none
             >;
         };
 
