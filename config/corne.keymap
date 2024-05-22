@@ -525,7 +525,7 @@
             bindings = <
 &none  &mod_morph_tab_1  &mod_morph_q_3  &kp W         &kp E           &mod_morph_r_6    &none  &none                          &none  &none  &none  &none
 &none  &kp LSHFT         &mod_morph_a_2  &kp S         &mod_morph_d_4  &mod_morph_f_5    &none  &none                          &none  &none  &none  &none
-&none  &kp B             &kp G           &kp X         &kp H           &kp V             &none  &none                          &none  &none  &none  &none
+&none  &kp G             &kp B           &kp X         &kp H           &kp V             &none  &none                          &none  &none  &none  &none
                                          &kp LEFT_ALT  &kp SPACE       &kp LCTRL         &none  &hold_tap_tog_kp 16 BACKSPACE  &none
             >;
         };
