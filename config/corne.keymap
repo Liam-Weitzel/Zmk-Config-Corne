@@ -237,13 +237,14 @@
             quick-tap-ms = <200>;
         };
 
-        mod_morph_tab_1: mod_morph_tab_1 {
+        mod_morph_a_1: mod_morph_a_1 {
             compatible = "zmk,behavior-mod-morph";
-            label = "MOD_MORPH_TAB_1";
+            label = "MOD_MORPH_A_1";
             bindings = <&kp TAB>, <&kp NUMBER_1>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
 
         mod_morph_q_2: mod_morph_q_2 {
@@ -253,42 +254,47 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
 
-        mod_morph_e_3: mod_morph_e_3 {
+        mod_morph_e_4: mod_morph_e_4 {
             compatible = "zmk,behavior-mod-morph";
-            label = "MOD_MORPH_E_3";
-            bindings = <&kp E>, <&kp NUMBER_3>;
+            label = "MOD_MORPH_E_4";
+            bindings = <&kp E>, <&kp NUMBER_4>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
 
-        mod_morph_r_4: mod_morph_r_4 {
+        mod_morph_d_3: mod_morph_d_3 {
             compatible = "zmk,behavior-mod-morph";
-            label = "MOD_MORPH_R_4";
-            bindings = <&kp R>, <&kp NUMBER_4>;
+            label = "MOD_MORPH_D_3";
+            bindings = <&kp D>, <&kp NUMBER_3>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
 
-        mod_morph_d_5: mod_morph_d_5 {
+        mod_morph_r_6: mod_morph_r_6 {
             compatible = "zmk,behavior-mod-morph";
-            label = "MOD_MORPH_D_5";
-            bindings = <&kp D>, <&kp N5>;
+            label = "MOD_MORPH_R_6";
+            bindings = <&kp D>, <&kp NUMBER_6>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
 
-        mod_morph_f_6: mod_morph_f_6 {
+        mod_morph_f_5: mod_morph_f_5 {
             compatible = "zmk,behavior-mod-morph";
-            label = "MOD_MORPH_F_6";
-            bindings = <&kp F>, <&kp NUMBER_6>;
+            label = "MOD_MORPH_F_5";
+            bindings = <&kp F>, <&kp N5>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
     };
 
@@ -517,10 +523,10 @@
 
         test1 {
             bindings = <
-&none  &mod_morph_tab_1  &mod_morph_q_2  &kp W         &mod_morph_e_3  &mod_morph_r_4    &none  &none                          &none  &none  &none  &none
-&none  &kp LSHFT         &kp A           &kp S         &mod_morph_d_5  &mod_morph_f_6    &none  &none                          &none  &none  &none  &none
-&none  &kp B             &kp G           &kp X         &kp H           &kp V             &none  &none                          &none  &none  &none  &none
-                                         &kp LEFT_ALT  &kp SPACE       &kp LCTRL         &none  &hold_tap_tog_kp 16 BACKSPACE  &none
+&none  &kp TAB    &mod_morph_q_2  &kp W         &mod_morph_e_4  &mod_morph_r_6    &none  &none                          &none  &none  &none  &none
+&none  &kp LSHFT  &mod_morph_a_1  &kp S         &mod_morph_d_3  &mod_morph_f_5    &none  &none                          &none  &none  &none  &none
+&none  &kp B      &kp G           &kp X         &kp H           &kp V             &none  &none                          &none  &none  &none  &none
+                                  &kp LEFT_ALT  &kp SPACE       &kp LCTRL         &none  &hold_tap_tog_kp 16 BACKSPACE  &none
             >;
         };
 
