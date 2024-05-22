@@ -280,7 +280,7 @@
         mod_morph_r_6: mod_morph_r_6 {
             compatible = "zmk,behavior-mod-morph";
             label = "MOD_MORPH_R_6";
-            bindings = <&kp D>, <&kp NUMBER_6>;
+            bindings = <&kp R>, <&kp NUMBER_6>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
