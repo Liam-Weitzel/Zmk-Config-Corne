@@ -403,7 +403,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Base {
+        layer_0 {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -418,7 +418,7 @@
             >;
         };
 
-        Mouse-trans {
+        layer_1 {
             bindings = <
 &none  &tog 16  &tog 17  &tog 18                       &none                        &none                            &kp PG_UP               &mkp MB1                    &up_mup                          &mkp MB2       &caps_capsword_mod_morph  &none
 &none  &tog 19  &tog 20  &none                         &none                        &mo 15                           &kp PAGE_DOWN           &left_mleft                 &down_mdown                      &right_mright  &none                     &none
@@ -427,7 +427,7 @@
             >;
         };
 
-        Mouse-L {
+        layer_2 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -436,7 +436,7 @@
             >;
         };
 
-        Mouse {
+        layer_3 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -445,7 +445,7 @@
             >;
         };
 
-        Function-trans {
+        layer_4 {
             bindings = <
 &none  &none  &kp F7  &kp F8                        &kp F9                       &mkp MB1                                 &kp F20                     &kp F21                     &kp F22                         &kp F23  &kp F24  &none
 &none  &none  &kp F4  &kp F5                        &kp F6                       &mkp MB2                                 &kp F15                     &kp F16                     &kp F17                         &kp F18  &kp F19  &none
@@ -454,7 +454,7 @@
             >;
         };
 
-        Function-L {
+        layer_5 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -463,7 +463,7 @@
             >;
         };
 
-        Function {
+        layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -472,7 +472,7 @@
             >;
         };
 
-        Number-trans {
+        layer_7 {
             bindings = <
 &none  &kp BACKSLASH  &kp N7        &kp N8                        &kp N9                       &mkp MB1                                 &none                       &none                       &kp LEFT_BRACKET                &kp RIGHT_BRACKET  &kp SEMICOLON  &none
 &none  &kp N0         &kp NUMBER_4  &kp N5                        &kp NUMBER_6                 &mkp MB2                                 &none                       &none                       &mod_morph_plus_equals          &kp MINUS          &kp GRAVE      &none
@@ -481,7 +481,7 @@
             >;
         };
 
-        Number-L {
+        layer_8 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -490,7 +490,7 @@
             >;
         };
 
-        Number {
+        layer_9 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -499,7 +499,7 @@
             >;
         };
 
-        layer_5 {
+        layer_10 {
             bindings = <
 &none  &kp DOT  &kp DOT  &kp DOT                       &kp DOT                      &kp DOT                                  &kp DOT                     &kp DOT                     &kp DOT                         &kp DOT  &kp DOT  &none
 &none  &kp DOT  &kp DOT  &kp DOT                       &kp DOT                      &kp DOT                                  &kp DOT                     &kp DOT                     &kp DOT                         &kp DOT  &kp DOT  &none
@@ -508,7 +508,7 @@
             >;
         };
 
-        layer_5_lock {
+        layer_11 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -517,7 +517,7 @@
             >;
         };
 
-        layer_5_temp {
+        layer_12 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -526,7 +526,7 @@
             >;
         };
 
-        System-trans {
+        layer_13 {
             bindings = <
 &none  &kp C_BRIGHTNESS_INC   &kp C_VOLUME_UP    &kp C_NEXT                    &none                        &none                                    &none                       &none                       &none                           &none         &none         &none
 &none  &kp C_BRIGHTNESS_DEC   &kp C_VOLUME_DOWN  &kp C_PREVIOUS                &none                        &none                                    &bt BT_SEL 0                &bt BT_SEL 1                &bt BT_SEL 2                    &bt BT_SEL 3  &bt BT_SEL 4  &none
@@ -535,7 +535,7 @@
             >;
         };
 
-        System-L {
+        layer_14 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -544,7 +544,7 @@
             >;
         };
 
-        System {
+        layer_15 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -553,7 +553,7 @@
             >;
         };
 
-        Rust {
+        layer_16 {
             bindings = <
 &none  &mod_morph_tab_1  &mod_morph_g_2  &kp W         &mod_morph_r_5  &mod_morph_f_6    &none  &none    &none  &none  &none  &none
 &none  &kp LEFT_SHIFT    &mod_morph_a_3  &kp S         &mod_morph_d_4  &kp E             &none  &none    &none  &none  &none  &none
@@ -562,7 +562,7 @@
             >;
         };
 
-        test2 {
+        layer_17 {
             bindings = <
 &none  &none  &none  &none  &none  &none    &kp S  &none    &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none    &none  &none  &none  &none
@@ -571,7 +571,7 @@
             >;
         };
 
-        test3 {
+        layer_18 {
             bindings = <
 &none  &none  &none  &none  &none  &none    &kp O  &none    &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none    &none  &none  &none  &none
@@ -580,7 +580,7 @@
             >;
         };
 
-        test4 {
+        layer_19 {
             bindings = <
 &none  &none  &none  &none  &none  &none    &kp G  &none    &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none    &none  &none  &none  &none
@@ -589,7 +589,7 @@
             >;
         };
 
-        test5 {
+        layer_20 {
             bindings = <
 &none  &none  &none  &none  &none  &none    &kp M  &none    &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none    &none  &none  &none  &none
